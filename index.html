@@ -4,18 +4,80 @@
         google homepage 
     </title>
     <style>
+      header {
+  display: flex;
+  
+           
+        }
+.about, .store, .gmail, .images {
+  padding: 20px;
+}
+header .right-navbar {
+  display: flex;
+  margin: 0 0 0 auto;
+}
 
+.searchbar {
+ 
+  text-align: center;
+  margin: auto;
+  padding: 300px;
+}
+.australia {
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #e3e3e3;
+  padding: 20px;
+  background: #f2f2f2;
+}
+.last-line {
+  display: flex;
+  
+  background: #f2f2f2;
+}
+.footer-right {
+  display: flex;
+  margin: 0 0 0 auto;
+}
+.add, .bus, .how, .priv, .terms, .set {
+  padding: 20px;
+}
     </style>
+</head>    
 <body>
     <main>
         <header>
-            <div>
-                <p>femwokqmsokxsq</p>
-            </div>
+              
+              <div class="about"><a href="#" target="_" style="color:black;">About</a></div>
+              <div class="store"><a href="#" target="_" style="color:black;">Store</a></div>
+              <div class="right-navbar">
+                    <div class="gmail">
+                      <a href="#" target="_" style="color:black;">Gmail</a>
+                    </div>
+                    <div class="images"><a href="#" target="_" style="color:black;">Images</a></div>
+                <div style="padding:0px;"><a href="#" target="_" style="color:black;">...<br>...<br>...</a></div>
+              </div>
         </header>
-
+        <div class="searchbar">
+            <!--Google icon-->
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google image">
+            <form>
+                <input type="search" id="gsearch" name="gsearch" placeholder="Search Google or type a URL" size="50">
+                <input type="submit" value="Search">
+            </form>
+        </div>
         <footer>
-
+          <div class="australia">Australia</div>
+          <div class="last-line">
+            <div class="add">Advertising</div>
+            <div class="bus">Business</div>
+            <div class="how">How Search Works</div>
+            <div class="footer-right">
+              <div class="priv">Privacy</div>
+              <div class="terms">Terms</div>
+              <div class="set">Settings</div>
+            </div>  
+          </div>  
         </footer>
     </main>
 </body>
